@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "certbot-certificate-hosttech"
+name = "hosttech-certbot-certificate"
 version = "0.1.0"
 description = "This repository contains the code needed to validate a domain name at hosttech.eu."
 authors = ["Mose Mueller <mosmuell@ethz.ch>"]
