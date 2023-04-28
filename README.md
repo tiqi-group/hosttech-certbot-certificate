@@ -20,8 +20,10 @@ To use this repository, you will need:
 
     ```bash
     cd certbot-certificate-hosttech
-    poetry install
+    poetry install [--without dev]
     ```
+    You can specify `--without dev` if you do not want to install the development
+    dependencies.
 
     This will install the `certbot`, `python-dotenv`, and `loguru` packages.
 
