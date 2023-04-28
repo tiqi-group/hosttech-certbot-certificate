@@ -31,6 +31,7 @@ To use this repository, you will need:
 
     ```
     API_TOKEN=<your Hosttech DNS API token>
+    PROPAGATION_TIME=<(optional, defaults to 90): integer value specifying the expected propagation time of the DNS record>
     ```
 
     or set this environment variable in you shell. **DON'T SHARE THIS TOKEN WITH ANYONE**. It should not be tracked by git.

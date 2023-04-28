@@ -45,7 +45,7 @@ if API_TOKEN is None:
         "API_TOKEN environment variable is not set. Either set the API_TOKEN "
         "as environment variable or put it into the .env file."
     )
-WAIT_TIME = os.getenv("WAIT_TIME", 90)
+PROPAGATION_TIME = os.getenv("PROPAGATION_TIME", 90)
 
 
 def get_domain_and_subdomain(domain_str: str) -> tuple[str, Union[str, None]]:
@@ -162,4 +162,4 @@ if get_response.status_code == 200:
 else:
     logger.error(f"Error: {get_response.status_code} - {get_response.text}")
 
-time.sleep(WAIT_TIME)
+time.sleep(PROPAGATION_TIME)
