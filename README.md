@@ -13,7 +13,7 @@ To use this repository, you will need:
 1. Clone this repository to your local machine:
 
     ```bash
-    git clone https://gitlab.phys.ethz.ch/tiqi-projects/qchub/network-services/certbot-certificate-hosttech.git
+    git clone https://github.com/tiqi-group/hosttech-certbot-certificate.git
     ```
 
 2. Install the dependencies using Poetry:
