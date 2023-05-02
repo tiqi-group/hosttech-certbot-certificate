@@ -19,7 +19,7 @@ To use this repository, you will need:
 2. Install the dependencies using Poetry:
 
     ```bash
-    cd certbot-certificate-hosttech
+    cd hosttech-certbot-certificate
     poetry install [--without dev]
     ```
     You can specify `--without dev` if you do not want to install the development
